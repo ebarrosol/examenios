@@ -14,6 +14,7 @@
 		723D91EC1B2C6CE40015EEC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723D91EB1B2C6CE40015EEC0 /* Images.xcassets */; };
 		723D91EF1B2C6CE40015EEC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D91ED1B2C6CE40015EEC0 /* LaunchScreen.xib */; };
 		723D91FB1B2C6CE40015EEC0 /* BlockNotasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D91FA1B2C6CE40015EEC0 /* BlockNotasTests.swift */; };
+		723D92051B2C6DBD0015EEC0 /* AdminNotas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D92041B2C6DBD0015EEC0 /* AdminNotas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		723D91F41B2C6CE40015EEC0 /* BlockNotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockNotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D91F91B2C6CE40015EEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		723D91FA1B2C6CE40015EEC0 /* BlockNotasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockNotasTests.swift; sourceTree = "<group>"; };
+		723D92041B2C6DBD0015EEC0 /* AdminNotas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminNotas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		723D91DF1B2C6CE40015EEC0 /* BlockNotas */ = {
 			isa = PBXGroup;
 			children = (
+				723D92041B2C6DBD0015EEC0 /* AdminNotas.swift */,
 				723D91E21B2C6CE40015EEC0 /* AppDelegate.swift */,
 				723D91E41B2C6CE40015EEC0 /* FirstViewController.swift */,
 				723D91E61B2C6CE40015EEC0 /* SecondViewController.swift */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				723D91E71B2C6CE40015EEC0 /* SecondViewController.swift in Sources */,
+				723D92051B2C6DBD0015EEC0 /* AdminNotas.swift in Sources */,
 				723D91E31B2C6CE40015EEC0 /* AppDelegate.swift in Sources */,
 				723D91E51B2C6CE40015EEC0 /* FirstViewController.swift in Sources */,
 			);

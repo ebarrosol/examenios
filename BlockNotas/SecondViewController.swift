@@ -8,8 +8,12 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UITextFieldDelegate
+{
 
+    @IBOutlet var nombrenota : UITextField!
+    @IBOutlet var descripnota : UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,27 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func textFieldShouldReturn(_textField: UITextField) -> Bool
+    {
+        _textField.resignFirstResponder()
+        return true
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent)
+    {
+        self.view.endEditing(true)
+    }
+    
+    @IBAction func agregarNota(sender: UIButton)
+    {
+        adminnot.agregarNotas(nombrenota.text, _descrip: descripnota.text)
+        self.view.endEditing(true)
+        nombrenota.text = ""
+        descripnota.text = ""
+        self.tabBarController?.selectedIndex = 0
+        
+    }
+    
 
 }
 
